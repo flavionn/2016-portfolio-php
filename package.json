@@ -1,0 +1,23 @@
+{
+  "name": "flavionn-front",
+  "description": "Projeto do meu portfólio",
+  "version": "0.2.0",
+  "keywords": [
+    "design, development, wordpress, portfolio"
+  ],
+  "homepage": "http://www.flavionn.com",
+  "author": {
+    "name": "Flávio Nery",
+    "url": "http://www.flavionn.com",
+    "email": "contato[at]flavionn.com"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}

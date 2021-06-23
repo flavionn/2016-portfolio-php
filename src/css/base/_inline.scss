@@ -1,0 +1,39 @@
+p {
+
+	color: #696969;
+	letter-spacing: 0.3px;
+	margin: 20px 0 0 2px;
+
+	@include xsmall {
+
+		font-size: em(12);
+		line-height: 20px;
+
+	}
+
+	@include small {
+
+		font-size: em(14);
+		line-height: 23px;
+
+	}
+
+}
+
+mark {
+}
+
+del {
+}
+
+u {
+}
+
+small {
+}
+
+strong {
+}
+
+em {
+}

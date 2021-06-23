@@ -1,0 +1,7 @@
+@include font-face('droid_sansregular', '../../font/droidsans-webfont');
+@include font-face('proxima_nova_rgbold', '../../font/proximanova-bold-webfont');
+@include font-face('proxima_novalight', '../../font/proximanova-light-webfont');
+
+$font-default: 'droid_sansregular';
+$font-title: 'proxima_nova_rgbold';
+$font-title-thin: 'proxima_novalight';

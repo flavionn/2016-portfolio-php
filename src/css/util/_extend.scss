@@ -1,0 +1,69 @@
+.logo {
+
+	@include size(em(150) auto); 
+
+	path {
+
+		fill: #b9b9b9;
+
+	}
+
+}
+
+.branco {
+
+	color: white;
+
+}
+
+.browser {
+
+	$radius: 5px;
+
+	@include border-top-radius($radius);
+	@include border-right-radius($radius);
+	@include border-bottom-radius($radius);
+	@include border-left-radius($radius);
+	@include border-style(solid null null null);
+	@include border-width(1.5em null null null);
+	@include position(relative, null null null null);
+
+	background-color: white;
+	box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	text-align: center;
+
+}
+
+.browser:before {
+
+	background-color: #d6655c;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #d6655c, 1em 0 0 1px #dcaa53, 2em 0 0 1px #65a64a;
+	content: '';
+	display: block;
+	height: 0.5em;
+	left: 0.8em;
+	position: absolute;
+	top: -1em;
+	width: 0.5em;
+
+}
+
+.black {
+
+	@include border-color(#455356 null null null);
+
+}
+
+.gray {
+
+	@include border-color(#e0e1e2 null null null);
+
+}
+
+.white {
+
+	@include border-color(white null null null);
+
+}

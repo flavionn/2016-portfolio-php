@@ -1,0 +1,56 @@
+@mixin vertical-align {
+
+	@include transform(translateY(-50%));
+	@include position(relative, 50% null null null);
+
+}
+
+@mixin xsmall {
+
+	@include media($xsmall) {
+
+		@content;
+
+	}
+
+}
+
+@mixin small {
+
+	@include media($small) {
+
+		@content;
+
+	}
+
+}
+
+@mixin medium {
+
+	@include media($medium) {
+
+		@content;
+
+	}
+
+}
+
+@mixin large {
+
+	@include media($large) {
+
+		@content;
+
+	}
+
+}
+
+@mixin xlarge {
+
+	@include media($xlarge) {
+
+		@content;
+
+	}
+
+}

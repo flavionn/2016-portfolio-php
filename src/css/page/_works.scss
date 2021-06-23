@@ -1,0 +1,283 @@
+section#works {
+
+	article {
+
+		@include position(relative);
+
+		height: 100vh;
+		overflow: hidden;
+
+		@include xsmall {
+
+			@include span-columns(10);
+
+		}
+
+		@include large {
+
+			@include span-columns(12);
+
+		}
+
+		.info {
+
+			@include xsmall {
+
+				@include span-columns(8);
+				@include shift(1);
+
+				margin-top: 20vh;
+				margin-bottom: 10vh;
+
+			}
+
+		}
+
+		.job {
+
+			@include xsmall {
+
+				@include span-columns(8);
+				@include shift(1);
+
+			}
+
+		}
+
+	}
+
+	article.box-01 {
+
+		.info {
+
+			@include span-columns(3);
+			@include shift(3);
+
+			margin-top: 15vh;
+			margin-bottom: 10vh;
+
+		}
+
+		.job {
+
+			@include span-columns(10);
+			@include shift(1);
+
+		}
+
+	}
+
+	article.box-02 {
+
+		height: 150vh;
+
+		.info {
+
+			@include span-columns(5);
+			@include shift(3);
+
+			margin-top: 20vh;
+			margin-bottom: 15vh;
+
+		}
+
+		.job {
+
+			@include span-columns(9);
+			@include shift(1.5);
+
+		}
+
+	}
+
+	article.box-03 {
+
+		height: 130vh;
+
+		.info {
+
+			@include span-columns(2);
+			@include shift(1);
+			//@include vertical-align();
+
+			margin-top: 25vh;
+			margin-bottom: 0;
+
+		}
+
+		.job {
+
+			@include span-columns(7);
+			@include shift(1);
+
+			margin-top: 25vh;
+
+		}
+
+	}
+
+	article.box-04 {
+
+		@include span-columns(6, table);
+		@include omega();
+
+		.info {
+
+				@include span-columns(5 of 6);
+				@include shift(1);
+
+				margin-top: 15vh;
+				margin-bottom: 10vh;
+
+		}
+
+		.job {
+
+			@include span-columns(5 of 6);
+			@include shift(0.5);
+
+		}
+
+	}
+
+}
+
+#ana {
+
+	background-color: #FFE274; 
+	color: #563C2C;
+
+}
+
+#ativamultimidia {
+
+	background-color: #456983; 
+	color: #50A6D0;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#ativaeducar {
+
+	background-color: #FFE274; 
+	color: #74A023;
+
+}
+
+#ativablog {
+
+	background-color: white; 
+	color: #333;
+
+}
+
+#ativahomebroker {
+
+	background-color: #012440; 
+	color: #196AAD;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#nerycom {
+
+	background-color: #23afe2; 
+	color: #295a96;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#ninocarvalho {
+
+	background-color: tomato; 
+	color: white;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#griddynamics {
+
+	background-color: gold; 
+	color: #222;
+
+}
+
+#sebraeup {
+
+	background-color: tomato; 
+	color: white;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#ufrj {
+
+	background-color: brown; 
+	color: white;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#nfib {
+
+	background-color: gold; 
+	color: #222;
+
+}
+
+#nootka {
+
+	background-color: #c6dfff; 
+	color: #295a96;
+
+}
+
+#orixas {
+
+	background-color: brown;
+	color: white;
+
+	p {
+
+		@extend .branco;
+
+	}
+
+}
+
+#konibaa {
+
+	background-color: #FECD0E;
+	color: #D96B10;
+
+}

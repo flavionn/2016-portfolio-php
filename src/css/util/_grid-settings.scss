@@ -1,0 +1,16 @@
+$visual-grid: false;
+$visual-grid-color: blue;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.4;
+$visual-grid-breakpoints: ();
+
+$column: 120px;
+$gutter: 6px;
+$grid-columns: 12;
+$max-width: 100%;
+
+$xsmall: new-breakpoint(min-width 480px 4);
+$small: new-breakpoint(min-width 600px 8);
+$medium: new-breakpoint(min-width 960px 12);
+$large: new-breakpoint(min-width 1280px 12);
+$xlarge: new-breakpoint(min-width 1440px 12);

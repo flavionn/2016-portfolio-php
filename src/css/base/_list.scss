@@ -1,0 +1,42 @@
+ul {
+
+	color: #a8a8a8;
+	font-size: em(12);
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+
+}
+
+li {
+
+	display: inline;
+	padding: 0 10px 0 0px;
+
+	a {
+
+		color: #a8a8a8;
+		text-decoration: none;
+
+	}
+
+	a:hover, a:visited, a:active {
+
+		text-decoration: line-through;
+
+	}
+
+}
+
+li:after {
+
+	content: " \2022";
+	padding-left: 10px;
+
+}
+
+li:last-child:after {
+
+	content: none;
+
+}

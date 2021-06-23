@@ -1,0 +1,35 @@
+header  {
+
+	@include outer-container;
+
+	background-color: white;
+	height: 100vh;
+
+	div {
+
+		@include vertical-align();
+
+		@include xsmall {
+
+			@include span-columns(8);
+			@include shift(1);
+
+		}
+
+		@include small {
+
+			@include span-columns(7);
+			@include shift(2);
+
+		}
+
+		@include large {
+
+			@include span-columns(5);
+			@include shift(3);
+
+		}
+
+	}
+
+}
